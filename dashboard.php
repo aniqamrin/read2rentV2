@@ -166,7 +166,12 @@ session_start();
     <!-- HEADER  -->
     <header class="header">
       <h1 class="logo">Reads2Rent</h1>
+    
+      <div class="header__search search">
+        <input type="text" placeholder="Search..">
+      </div>
     </header>
+    
   
     <!-- FEATURED STAGE -->
     <div class="stage js-drag-container">
@@ -526,4 +531,3 @@ session_start();
 ">
   <i class="fas fa-moon"></i>
 </button>
-  
