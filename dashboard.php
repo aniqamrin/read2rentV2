@@ -441,35 +441,11 @@ session_start();
     };
   </script>
 
- <!-- Logout Button 
-<button method="GET" id="logoutButton"  style="
-  position: fixed;
-  top: 0.90rem; /* Changed from bottom to top */
-  right: 5rem;
-  padding: 0.70rem 1rem;
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  font-size: 0.95rem;
-  z-index: 1000;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-">
+
+
+
   <i class="fas fa-sign-out-alt"></i> 
-</button>
-<script>
-  const logoutButton = document.getElementById('logoutButton');
-  logoutButton.addEventListener('click', logout);
-  function logout() {
-  window.location.href = 'http://localhost/read2rent/login.php';
-  <?php session_destroy();
-  unset($_SESSION['username']);
-?>
-  alert('you have succesfully logout!');
-  }
-  </script>
+
    INCLUDE DRAGULA.JS 
   <script src="https://unpkg.com/dragula@3.7.2/dist/dragula.min.js"></script>
   <script src="dashboard.js"></script>
