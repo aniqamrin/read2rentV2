@@ -78,6 +78,18 @@ $result = $conn->query($sql);
                                 Orders <span class="sr-only">(current)</span>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="addBook.php">
+                                <i class="zmdi zmdi-file-text"></i>
+                                Add Book <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="deleteBook.php">
+                                <i class="zmdi zmdi-file-text"></i>
+                                Delete Book <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

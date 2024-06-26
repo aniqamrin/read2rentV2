@@ -507,3 +507,22 @@ session_start();
 ">
   <i class="fas fa-moon"></i>
 </button>
+
+</button>
+<button style="
+  position: fixed;
+  top: 1rem;
+  right: 10rem;
+  padding: 0.65rem;
+  z-index: 1000;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+">
+  <i class="fa-solid fa-user"></i>
+</button>

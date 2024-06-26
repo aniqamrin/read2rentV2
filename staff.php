@@ -98,7 +98,7 @@ $transactions = getTransactions($pdo);
 </head>
 <body>
 <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Reads2Rent</a>
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="dashboard.php">Reads2Rent</a>
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
             <a class="nav-link" href="#">Sign out</a>
@@ -111,7 +111,7 @@ $transactions = getTransactions($pdo);
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link active" href="staff.php">
                             <i class="zmdi zmdi-widgets"></i>
                             Staff Dashboard <span class="sr-only">(current)</span>
                         </a>
@@ -122,6 +122,18 @@ $transactions = getTransactions($pdo);
                             Orders
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="addbook.php">
+                            <i class="zmdi zmdi-widgets"></i>
+                            Add Book
+                        </a>
+                    </li>
+					<li class="nav-item">
+                            <a class="nav-link active" href="deleteBook.php">
+                                <i class="zmdi zmdi-file-text"></i>
+                                Delete Book <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
                 </ul>
             </div>
         </nav>
